@@ -1,0 +1,333 @@
+/* Home page */
+body
+{
+    background-color: beige;
+    font-family: "Segoe UI",Arial,sans-serif;
+    color: #808080;
+    margin: 0%;
+    text-align: center;
+}
+header
+{
+    width: 100%;
+}
+.body
+{
+    background-color: rgb(165, 134, 76);
+}
+.menu
+{
+    padding: 15px;
+    box-sizing: inherit;
+    background-color: inherit;
+    position: sticky;
+    top: 0;
+     
+}
+.menu a
+{
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+    color: rgb(165, 134, 76);
+}
+.menu a:hover
+{
+    opacity: 0.8;
+    color: #282828;
+}
+header img
+{
+    width: 100%;
+    height: 500px;
+    opacity: 0.7;
+}
+h2
+{
+    color: rgb(165, 134, 76);
+}
+h4
+{
+    color: #484848;
+    margin: 5px;
+}
+.about
+{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.quoat
+{
+    text-align: justify;
+}
+.quoat2
+{
+    float: left;
+    text-align: left;
+    width: 50%;
+    margin-bottom: auto;
+    height: max-content;
+}
+.quoat2 img
+{
+    width: 50%;
+    height: fit-content;
+}
+label h2
+{
+    text-align: center;
+}
+.quoat3
+{
+    padding-top: 20px;
+    height: 400px;
+    text-align: justify;
+}
+.portfolio
+{
+    width: 100%;
+}
+.portfolio1
+{
+    width: 80%;
+    margin-left: 17%;
+    height: 10%;
+}
+.portfolio1 img
+{
+    width: 20%;
+    float: left;
+    margin: 3px;
+}
+.load
+{
+    margin-top: 350px;
+}
+button
+{
+    border-color: beige;
+    border-radius: 10px;
+    background-color: rgb(165, 134, 76);
+    box-sizing: 50px;
+    color: beige;
+    padding: 12px 24px !important;
+}
+button:hover
+{
+    opacity: 0.7;
+}
+
+.contact1
+{
+    text-align: left;
+    float: left;
+}
+.contact1 img
+{
+    width: 60%;
+    margin-left: 10%;
+}
+.contact2
+{
+    float: left;
+    margin-left: 17%;
+}
+input[type=text], input[type=email], input[type=password], input[type=date]
+{
+    border-radius: 2px;
+    border-color: #e8e8e8;
+    padding: 3px;
+    margin: 2px;
+    box-sizing: inherit;
+    font: inherit;
+    margin: 5px;
+    background-color: inherit;
+    color: #484848;
+}
+.wedgets
+{
+    margin-top: 300px;
+    background-color: rgb(165, 134, 76);
+    height: 200px;
+    text-align: left;
+}
+.foot a
+{
+    color: beige;
+    text-decoration: none;
+}
+/* Log In page */
+form
+{
+    background-color: beige;
+    border-radius: 15px;
+}
+.logimg
+{
+    float: left;
+}
+.logimg img
+{
+    margin: 20%;
+}
+.logimg img
+{
+    opacity: 0.7;
+}
+.login
+{
+    background-color: rgb(165, 134, 76);
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 20%;
+    text-align: left;
+}
+.heading h2
+{
+    margin-left: 70%;
+}
+.login button
+{
+    margin-top: 5px;
+}
+.logform label
+{
+    margin-left: 20% ;
+}
+.logform a
+{
+    text-decoration: none;
+    color: rgb(165, 134, 76);
+}
+.logform input[type=text], input[type=password]
+{
+    margin-left: 20%;
+    width: 40%;
+}
+.cancel label
+{
+    margin-left: 15%;
+}
+.cancel button
+{
+    margin-left: 20%;
+}
+.account
+{
+    margin-top: 10px;
+}
+.account label
+{
+    margin-left: 30%;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 980px)
+{
+    html 
+    {
+        margin-top: 10%;
+    }
+    .login
+    {
+        width: 90%;
+        margin: auto;
+    }
+    .logimg img{
+        width: 80%;
+        margin-left: 35px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .heading
+    {
+        margin-top: 10px;
+        text-align: center;
+        margin: auto;
+    }
+    .heading h2
+    {
+        margin: auto;
+    }
+    .login input[type=text], input[type=password]
+    {
+        margin-left: 35px;
+        width: 80%;
+    }
+    .login label
+    {
+        margin-left: 35px;
+    }
+    .logform
+    {
+        margin-top: 10px;
+    }
+    .cancel button 
+    {
+        margin-left: 35px;
+    }
+    .cancel label
+    {
+        margin-left: 15%;
+    }
+    .account
+    {
+        margin-top: 10px;
+    }
+    .account label
+    {
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 10px;
+    }
+}
+/* Registrstion Form */
+.registration
+{
+    background-color: rgb(165, 134, 76);
+    text-align: left;
+}
+.registration form
+{
+    width: 40%;
+    margin: auto;
+    /* margin-top: 20px; */
+    padding-bottom: 10px;
+    margin-top: 3%;
+}
+.regform label
+{
+    margin-left: 5px;
+}
+.form2 input[type=password], input[type=date]
+{
+    margin-left: 5px;
+    width: 80%;
+}
+.form2
+{
+    margin-left: 10%;
+}
+.form2 input[type=text], input[type=email]
+{
+    width: 80%;
+}
+.regbutton
+{
+    margin-top: 10px;
+}
+.rst 
+{
+    margin-left: 45%;
+}
+.hvacc label
+{
+    /* text-align: center; */
+    margin-left: 25%;
+}
+.hvacc a
+{
+    text-decoration: none;
+    color: rgb(165, 134, 76);
+}
